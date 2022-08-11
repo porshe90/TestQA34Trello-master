@@ -1,0 +1,45 @@
+23:04:41  DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\julia\Documents\QA\QA_Automation\QA\TestQA34Trello\src\test\resources\logng.xml"
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] 2045031788
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] -475375085
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] -68692127
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Login.preConditions()[pri:0, instance:null] 1481656486
+23:04:41  DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR Login.preConditions()[pri:0, instance:null] ==> TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null]
+23:04:41  DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR Login.preConditions()[pri:0, instance:null] ==> TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null]
+23:04:41  DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] FROM NODE Login.preConditions()[pri:0, instance:null]
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph]               TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null]
+23:04:41  DEBUG org.testng.internal.Graph - [Graph]               Login.preConditions()[pri:0, instance:null]
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.finishLog()[pri:0, instance:null] 1549693568
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:tests.Login@6017b202] 583641622
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Login.loginPositive()[pri:0, instance:tests.Login@6017b202] -831339579
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:tests.Login@6017b202] -239560113
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+23:04:41  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+23:04:42  INFO  tests.TestBase - Start test---loginPositive
+23:04:42  INFO  tests.TestBase - *****************************************************************************

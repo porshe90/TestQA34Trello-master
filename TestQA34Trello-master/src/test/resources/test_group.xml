@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="log">
+    <groups>
+        <run>
+            <include name="logs"/>
+        </run>
+    </groups>
+    <test name="log">
+        <classes>
+
+            <class name="tests.BoardCreation"/>
+            <class name="tests.BoardDeletion"/>
+            <class name="tests.CardCreation"/>
+        </classes>
+    </test>
+</suite>
